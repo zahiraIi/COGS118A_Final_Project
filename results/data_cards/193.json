@@ -1,0 +1,55 @@
+{
+  "uci_id": 193,
+  "key": "ctg",
+  "niche": "D",
+  "title": "Cardiotocography",
+  "uci_metadata": {
+    "num_instances": 2126,
+    "num_features": 21,
+    "tasks": [
+      "Classification"
+    ],
+    "area": "Health and Medicine",
+    "doi": "10.24432/C51S4N"
+  },
+  "binary_rule": "positive = NSP 2 (suspect) or 3 (pathologic); negative = NSP 1 (normal); CLASS dropped (encodes the target)",
+  "rows_in_file": 2126,
+  "n_features_after_split": 21,
+  "positives": 471,
+  "negatives": 1655,
+  "positive_rate": 0.2215,
+  "majority_rate": 0.7785,
+  "exact_duplicate_rows": 13,
+  "unique_rows": 2113,
+  "conflicting_feature_groups_raw": 2,
+  "after_dedup": {
+    "rows": 2113,
+    "positives": 467,
+    "negatives": 1646,
+    "majority_rate": 0.779
+  },
+  "missing_cells_in_features": 0,
+  "feature_columns": [
+    "LB",
+    "AC",
+    "FM",
+    "UC",
+    "DL",
+    "DS",
+    "DP",
+    "ASTV",
+    "MSTV",
+    "ALTV",
+    "MLTV",
+    "Width",
+    "Min",
+    "Max",
+    "Nmax",
+    "Nzeros",
+    "Mode",
+    "Mean",
+    "Median",
+    "Variance",
+    "Tendency"
+  ]
+}

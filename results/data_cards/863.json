@@ -1,0 +1,40 @@
+{
+  "uci_id": 863,
+  "key": "maternal",
+  "niche": "D",
+  "title": "Maternal Health Risk (rural Bangladesh)",
+  "uci_metadata": {
+    "num_instances": 1013,
+    "num_features": 6,
+    "tasks": [
+      "Classification"
+    ],
+    "area": "Health and Medicine",
+    "doi": "10.24432/C5DP5D"
+  },
+  "binary_rule": "positive = mid or high risk; negative = low risk",
+  "rows_in_file": 1014,
+  "n_features_after_split": 6,
+  "positives": 608,
+  "negatives": 406,
+  "positive_rate": 0.5996,
+  "majority_rate": 0.5996,
+  "exact_duplicate_rows": 568,
+  "unique_rows": 446,
+  "conflicting_feature_groups_raw": 30,
+  "after_dedup": {
+    "rows": 446,
+    "positives": 212,
+    "negatives": 234,
+    "majority_rate": 0.5247
+  },
+  "missing_cells_in_features": 0,
+  "feature_columns": [
+    "Age",
+    "SystolicBP",
+    "DiastolicBP",
+    "BS",
+    "BodyTemp",
+    "HeartRate"
+  ]
+}
